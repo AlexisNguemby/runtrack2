@@ -8,12 +8,15 @@ $dic = [
 for ($i = 0; $i < strlen($str); $i++) {
     if(in_array($str[$i], $voyelles)) {
         $dic["voyelles"]++;
-        var_dump($dic);
+        
     } else {
         $dic["consonnes"]++;
-        var_dump($dic);
+        
 
     }
-}
+    
+}  echo "le nombre de voyelles est de " . $dic["voyelles"] . "<br>";
+echo "le nombre de consonnes est de " . $dic["consonnes"]  . "<br>";
+echo $str;
 
 ?>
