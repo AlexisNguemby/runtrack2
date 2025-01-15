@@ -1,5 +1,5 @@
 <?php
-$str = "Dans l'espace, personne ne vous entend crier";
-$length = strlen($str);
-echo "Le nombre de caractères dans la chaîne est : " . $length;
+$str = "Les choses que l'on Possède finissent par nous posséder.";
+$reversedStr = strrev($str);
+echo $reversedStr;
 ?>
